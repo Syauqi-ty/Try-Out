@@ -1,0 +1,145 @@
+<!-- templates.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        Helvetica, Arial, sans-serif !important;
+    "
+  >
+    <table
+      style="
+        box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+          0 0 0 1px rgba(10, 10, 10, 0.02);
+        min-width: 400px;
+        width: 50vw;
+        margin-top: 50px;
+      "
+    >
+      <tr style="padding: -1px">
+        <td style="padding: 20px">
+          <table>
+            <thead>
+              <tr>
+                <td>
+                  <img
+                    src="https://studybuddy.id/img/logo.png"
+                    alt=""
+                    width="130px"
+                    style="margin-right: 20px"
+                  />
+                </td>
+                <td
+                  style="
+                    padding-left: 10px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    justify-content: space-around;
+                  "
+                >
+                  <table>
+                    <tr>
+                      <td>
+                        <h1
+                          style="
+                            margin-top: 35px;
+                            margin-bottom: 0;
+                            font-weight: 570;
+                          "
+                        >
+                          Dear {{.Name}},
+                        </h1>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p style="font-size: larger; margin-top: 0">
+                          <em>Selamat!</em>
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </thead>
+          </table>
+          <br />
+          <table>
+            <tr>
+              <td>
+                <p>Hai!</p>
+                <p>
+                  Selamat kamu berhasil lolos tahap pertama seleksi penerimaan
+                  untuk menjadi tim StudyBuddy. Selanjutnya kamu akan masuk ke
+                  tahap kedua yaitu tahap interview pada {{.ScheduledAt}} dengan
+                  platform Google Meets. Link meeting akan dikirim 30 menit
+                  sebelum mulai interview. Persiapkan dirimu ya!.
+                </p>
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <img
+                  src="https://image.freepik.com/free-vector/tiny-women-holding-gift-box-present-ribbon-happiness-flat-illustration_74855-11141.jpg"
+                  alt=""
+                  width="130px"
+                />
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <hr style="border: 1px solid lightgrey" />
+                <small style="color: lightslategray"
+                  >Pesan ini dikirim secara otomatis oleh tim StudyBuddy kepada
+                  Anda, dengan cinta</small
+                >
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <small style="color: lightslategray">Temukan kami di:</small>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <small
+                  ><a
+                    style="text-decoration: none"
+                    href="https://twitter.com/idstudybuddy"
+                    >Twitter</a
+                  >
+                  |</small
+                >
+                <small
+                  ><a
+                    style="text-decoration: none"
+                    href="https://www.instagram.com/id.studybuddy/"
+                    >Instagram</a
+                  >
+                  |</small
+                >
+                <small
+                  ><a
+                    style="text-decoration: none"
+                    href="https://line.me/ti/p/@krv7008k"
+                    >LINE</a
+                  ></small
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

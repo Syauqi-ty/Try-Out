@@ -1,0 +1,45 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- 
+	- footer.html
+	- header.html
+	- index.html
+
+[GIN-debug] GET    /socket.io/               --> main.sockethandler (3 handlers)
+[GIN-debug] GET    /api/device               --> main.basedevice (3 handlers)
+[GIN-debug] POST   /api/device/new           --> main.devicenew (3 handlers)
+[GIN-debug] PUT    /api/device/:merge_id     --> main.deviceupdate (3 handlers)
+[GIN-debug] DELETE /api/device/:id           --> main.devicedelete (3 handlers)
+[GIN-debug] GET    /api/device/baterai/:merge_id --> main.getbaterai (3 handlers)
+[GIN-debug] GET    /user/                    --> main.baseuser (3 handlers)
+[GIN-debug] POST   /user/new                 --> main.usernew (3 handlers)
+[GIN-debug] PUT    /user/update/:id          --> main.userupdate (3 handlers)
+[GIN-debug] DELETE /user/delete/:id          --> main.userupdate (3 handlers)
+[GIN-debug] POST   /user/login               --> main.login (3 handlers)
+[GIN-debug] GET    /user/pointer/:id         --> main.basepointer (3 handlers)
+[GIN-debug] GET    /volume/                  --> main.basevolume (3 handlers)
+[GIN-debug] POST   /volume/new               --> main.volumenew (3 handlers)
+[GIN-debug] PUT    /volume/update/:id        --> main.volumeupdate (3 handlers)
+[GIN-debug] DELETE /volume/delete/:id        --> main.volumedelete (3 handlers)
+[GIN-debug] GET    /volume/daily/:merge_id   --> main.volumedaily (3 handlers)
+[GIN-debug] GET    /volume/monthly/:merge_id --> main.volumemonthly (3 handlers)
+[GIN-debug] GET    /volume/last/:device_index --> main.dataterakhir (3 handlers)
+[GIN-debug] GET    /volume/day/:merge_id     --> main.arraydaily (3 handlers)
+[GIN-debug] GET    /volume/hour/:merge_id    --> main.arrayhourly (3 handlers)
+[GIN-debug] POST   /hardware/update/:merge_id/:volume/:baterai --> main.hardwareupdate (3 handlers)
+[GIN-debug] GET    /hardware/valve/:merge_id --> main.getvalvestatus (3 handlers)
+[GIN-debug] GET    /alamat/:merge_id         --> main.alamatshow (3 handlers)
+[GIN-debug] POST   /alamat/new               --> main.alamatsave (3 handlers)
+[GIN-debug] PUT    /alamat/update/:merge_id  --> main.alamatupdate (3 handlers)
+[GIN-debug] DELETE /alamat/delete/:merge_id  --> main.alamatdelete (3 handlers)
+[GIN-debug] GET    /                         --> pampam/backend/tuqa/controller.DeviceController.Show-fm (3 handlers)
+[GIN-debug] GET    /sipa                     --> main.sipa (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2020/10/18 - 14:18:53 | 200 |      5.0096ms |             ::1 | GET      "/api/device"

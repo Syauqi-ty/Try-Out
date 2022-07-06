@@ -1,0 +1,28 @@
+{
+  "debug": true,
+  "server": {
+    "name": "https://studybuddy.id",
+    "address": ":5000"
+  },
+  "oauth": {
+    "client_id": "570953517857-v50bfa3oh4fdg09fk3pu8teslsmm2hke.apps.googleusercontent.com",
+    "client_secret": "hoVCPDkpAJxZuXMDtYCabCtm"
+  },
+  "xendit": {
+    "key": "xnd_production_j7ca5mHTMzJ5rFn3xNIVpcn9cWTVSzHwvsilWoa8zqZ7eIjqGOMR0bG29FQFY",
+    "token": "d916916038c07a017259a26015b32c515fd150b8277c09c0f750d9f5afa3031f"
+  },
+  "context": {
+    "timeout": 10
+  },
+  "timezone": "Asia/Jakarta",
+  "secret": "rahasiabangetdemiallah",
+  "database": {
+    "driver": "mysql",
+    "host": "localhost",
+    "port": "3306",
+    "name": "studybuddy",
+    "user": "root",
+    "password": ""
+  }
+}

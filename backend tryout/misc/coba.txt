@@ -1,0 +1,1 @@
+﻿idusernameemailnamephonestudent_classpasswordbrightstargetschoolcircle_idcreatedAtupdatedAtline
